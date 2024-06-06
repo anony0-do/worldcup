@@ -3,46 +3,46 @@ body{
     padding: 0;
     background-image:url("backgroung.svg");
 }
-.cont{
-    background-color: red;
-    border-radius: 25px;
-    margin: 10%;
+.all{
+    display:flex;
+    justify-content: center;
     grid-template-columns: 1fr 1fr;
-    gap:20%;
+    gap:5%;
+    margin:1%;
+}
+.cont{
     display: flex;
-
+    flex-direction: column;
+    margin: 10px;
 }
 .cont1{
-    height:20%;
-    width: 20%;
-    background-color: #c4c4c4;
-    display: flex;
-    border-radius: 0px 0px 20px 20px;
-    justify-content: space-around;
-
-}
-.cont2{
     background-color:#ACD9FF;
-    width:20%;
-    height: 5vh;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
+    height:10%;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 10px 10px 0px 0px;
+}
+.cont2{
+    background-color: #c4c4c4;
+    width:30vh;
+    height: 37vh;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    justify-content: space-around;
+}
+img{
+    width: 40px;
+    height: 50px;
 }
 .flags{
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 40px;
 }
 .names{
     display: flex;
-    flex-direction: column;
+    flex-direction: column;    
+    align-items: flex-end;
     font-size: 10px;
-}
-
-img{
-    width: 50px;
-    height: 50px;
 }
