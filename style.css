@@ -10,13 +10,19 @@ body{
     gap:5%;
     margin:1%;
 }
+
 .cont{
     display: flex;
     flex-direction: column;
     margin: 10px;
 }
+.idk{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+}
 .cont1{
-    background-color:#ACD9FF;
+    background-color:#8da2c2;
     height:10%;
     display: flex;
     justify-content: center;
@@ -24,7 +30,7 @@ body{
     border-radius: 10px 10px 0px 0px;
 }
 .cont2{
-    background-color: #c4c4c4;
+    background-color: #7a7a88;
     width:30vh;
     height: 37vh;
     border-radius: 0px 0px 10px 10px;
