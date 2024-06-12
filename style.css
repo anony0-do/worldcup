@@ -1,18 +1,12 @@
-<<<<<<< HEAD
 body{
     display: flex;
-    justify-content: center;
     background-image:url("backgroung.svg");
-}
-.cont{
-    display: flex;
     flex-direction: column;
     align-items: center;
-    width: 40vh;
 }
 .cont1{
-    width: 20vh;
-    height: 30vh;
+    width: 30vh;
+    height: 40vh;
     margin: 20px;
 }
 .one{
@@ -20,19 +14,19 @@ body{
     justify-content: center;
     align-items: center;
     background-color: aqua;
-    height: 5vh;
+    height: 7vh;
     border-radius: 15px 15px 0px 0px;
 }
 .two{
     background-color: rgb(107, 107, 107);
-    height: 20vh;
+    height: 30vh;
     border-radius: 0px 0px 15px 15px ;
     display: flex;
     justify-content: space-around;
 }
 img{
-    width: 40px;
-    height: 50px;
+    width: 35px;
+    height: 40px;
 }
 .flags{
     display: flex;
@@ -43,85 +37,11 @@ img{
     display: flex;
     flex-direction: column;    
     align-items: flex-end;
-    font-size: 10px;
+    font-size: 8px;
 }
 @media (min-width: 700px){
     body{
-        width: 50vh;
-        height: 50vh;
-    }
-    .cont{
         display: flex;
-        flex-wrap: wrap;
         flex-direction: row;
-        justify-content: center;
     }
 }
-=======
-body{
-    margin: 0;
-    padding: 0;
-    background-image:url("backgroung.svg");
-}
-.all{
-    display:flex;
-    justify-content: center;
-    grid-template-columns: 1fr 1fr;
-    gap:5%;
-    margin:1%;
-}
-
-.cont{
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-}
-.idk{
-    display: flex;
-    flex-direction: column;
-    height: 50vh;
-}
-.cont1{
-    background-color:#8da2c2;
-    height:10%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px 10px 0px 0px;
-}
-.cont2{
-    background-color: #7a7a88;
-    width:30vh;
-    height: 37vh;
-    border-radius: 0px 0px 10px 10px;
-    display: flex;
-    justify-content: space-around;
-}
-img{
-    width: 40px;
-    height: 50px;
-}
-.flags{
-    display: flex;
-    flex-direction: column;
-    width: 40px;
-}
-.names{
-    display: flex;
-    flex-direction: column;    
-    align-items: flex-end;
-    font-size: 10px;
-}
-@media (max-width: 700px){
-    .all{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .cont{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-}
->>>>>>> ab5202664e468582533822610b30ce8ac44c8704
